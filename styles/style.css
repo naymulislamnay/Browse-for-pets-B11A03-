@@ -1,0 +1,13 @@
+/* font style */
+
+.adlam-display-regular {
+  font-family: "ADLaM Display", system-ui;
+}
+
+
+
+.sora-regular {
+  font-family: "Sora", sans-serif;
+}
+
+@import "tailwindcss"
