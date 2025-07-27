@@ -10,13 +10,39 @@
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Browse For Pets</title>
 </head>
 
 <body>
-    <header>
-        Browse For Pets
+    <header class="max-w-[1320px] mx-auto font-[sora]">
+        <nav class="flex justify-between items-center py-7 px-2.5 xl:px-0">
+            <div class="flex items-center text-[26px]">
+                <img src="./c1-assets/logo-header.png" alt="">
+                <div class="ml-3 hidden md:block">
+                    Browse<span class="text-[#FFDC26]">4</span>Pets
+                </div>
+            </div>
+            <div class="flex gap-8 text-xl hidden lg:flex">
+                <ul><a href="#">Find a Pet</a></ul>
+                <ul><a href="#">Breeds</a></ul>
+                <ul><a href="#">Contact Us</a></ul>
+            </div>
+            <div class="flex gap-4 items-center hidden md:flex">
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <i class="fa-solid fa-bell text-2xl"></i>
+                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                <button class="border border-[#FFDC26] rounded-lg py-2.5 px-8 text-xl">Login</button>
+                <button class="bg-[#FFDC26] rounded-lg py-2.5 px-8 text-xl">Register</button>
+            </div>
+            <div class="block md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
     </header>
 
     <main>
